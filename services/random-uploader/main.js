@@ -24,7 +24,7 @@ let dateTime = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}-${d
 // Define the upload parameters
 let uploadParams = {
     Bucket: 'YOUR_BUCKET_NAME',
-    Key: `file_${dateTime}.txt`,
+    Key: `file_entropy_${dateTime}.txt`,
     Body: fileContent
 };
 

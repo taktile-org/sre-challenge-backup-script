@@ -14,12 +14,13 @@ bucket_name = 'your-bucket'
 
 # Get the current date and time
 date_time = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
+only_date = datetime.now().strftime("%Y-%m-%d")
 
 # Set the file content to the current date and time, encoded as bytes
-file_content = date_time.encode()
+file_content = only_date.encode()
 
 # Set the file name to include the current date and time
-file_name = f"file_{date_time}.txt"
+file_name = f"file_date_{date_time}.txt"
 
 # Create a file-like object in memory
 file_object = BytesIO(file_content)
