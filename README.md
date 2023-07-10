@@ -9,7 +9,7 @@ Your task is to write a script that automates a regular backup of an AWS S3 buck
 * The script should be written in a language you're comfortable with. You may want to use a language that can leverage the AWS SDK, such as Python (Boto3 library), Node.js (AWS SDK for JavaScript), etc.
 * The script should copy all contents from a source S3 bucket to a destination S3 bucket. Assume that these buckets already exist.
 * The backup should occur on a schedule, for example, every day at a certain time.
-* If a backup fails, the script should log the error and send an email alert with the relevant details.
+* If a backup fails, the script should log the error
 
 ## Pre-requisites
 
